@@ -10,6 +10,8 @@ class ResourceManager {
     static Enemy_Cloud_2 = { src: "resources/enemy_cloud_2.png", cols: 1, rows: 1, frames: 1, scale: 1 };
     static Enemy_Cloud_3 = { src: "resources/enemy_cloud_3.png", cols: 1, rows: 1, frames: 1, scale: 1 };
 
+    static heart= { src: "resources/heart.png", cols: 1, rows: 1, frames: this.Enemy_Cloud_1, scale: 1 };
+
     static Item_Heart = { src: "resources/item_heart.png", cols: 3, rows: 3, frames: 7, scale: 2.1 };
     static Item_Shield = { src: "resources/item_shield.png", cols: 4, rows: 5, frames: 19, scale: 1.2 };
     static Item_Book = { src: "resources/item_book.png", cols: 2, rows: 3, frames: 5, scale: 1.4 };
